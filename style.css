@@ -4,7 +4,7 @@
   box-sizing:border-box;
 }
 
-body, .first, .left-side, .second, .card{
+body, .first, .left-side, .second, .card, .third{
     flex-direction: column;
 }
 
@@ -73,7 +73,8 @@ a {
     gap: 50px;
 }
 
-img {
+.img-gt7 {
+  border-radius: 15px;
   height: 100%;
   width: 100%;
 }
@@ -100,7 +101,7 @@ img {
 
 .second {
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
@@ -128,7 +129,30 @@ img {
 }
 
 .card-text {
+    flex: 1;
     color: dark; text-align: center;
+}
+
+.third {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #E5E7EB;
+    justify-content: space-between;
+
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 25px;
 }
 
 
