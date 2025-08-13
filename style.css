@@ -79,12 +79,9 @@ a {
   width: 100%;
 }
 
-.btn-see-more {
+.btn-see-more{
     border: 0;
     background-color: #3882F6;
-}
-
-.btn-see-more, .button-click-here{
     width: 150px;
     border-radius: 5px;
     padding: 5px;
@@ -184,6 +181,10 @@ a {
 .button-click-here {
     background-color: transparent;
     border: 2px solid white;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 
